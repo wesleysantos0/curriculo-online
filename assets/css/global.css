@@ -10,12 +10,10 @@
     font-family: "Open Sans", sans-serif;
 }
 
-body {
+body { 
     height: 100vh;
     background-color: #b95252;
     color: #ffffff;
-
-    background: rgb(67, 20, 203);
     background: linear-gradient(to bottom, 
     #4314cb, 
     #8c35ec, 
@@ -27,6 +25,7 @@ body {
     #fd97ae, 
     #fea9aa, 
     #ffc9bb);
+    background-repeat: no-repeat;
 }
 
 .main {
@@ -37,4 +36,11 @@ body {
     background: transparent;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+    .main {
+        max-width: 1024px;
+        margin: 1.2rem auto;
+    }
 }
