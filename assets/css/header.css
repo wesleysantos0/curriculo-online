@@ -58,6 +58,16 @@
     margin-right: .5rem;
 }
 
+.information p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.information p a:hover {
+    color: #55569E;
+    text-decoration: underline;
+}
+
 .information .job::before {
     background-image: url(/assets/imagens/icons/job.png);
 }

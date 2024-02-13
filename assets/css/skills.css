@@ -1,0 +1,47 @@
+.skills  {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .tools  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.skills .tools  img {
+    display: flex;
+    max-width: 50px;
+    object-fit: contain;
+}
+
+.skills .personal  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0 1rem;
+}
+
+.skills .personal ul li {
+    margin-left: 2rem;
+    padding: .5rem;
+}
+
+/* Tipos de tela */
+@media (min-width: 768px) {
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
