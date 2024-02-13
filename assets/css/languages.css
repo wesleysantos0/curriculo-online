@@ -13,5 +13,22 @@
 }
 
 .languages li {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 1rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.languages li::before {
+    content: "";
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: .5rem;
+    background-image: url('../imagens/icons/check.png');
+    background-repeat: no-repeat;
+
 }

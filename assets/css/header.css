@@ -59,19 +59,19 @@
 }
 
 .information .job::before {
-    background-image: url(/assets/imagens/icons/job.svg);
+    background-image: url(/assets/imagens/icons/job.png);
 }
 
 .information .location::before {
-    background-image: url(/assets/imagens/icons/location.svg);
+    background-image: url(/assets/imagens/icons/location.png);
 }
 
 .information .email::before {
-    background-image: url(/assets/imagens/icons/email.svg);
+    background-image: url(/assets/imagens/icons/email.png);
 }
 
 .information .phone::before {
-    background-image: url(/assets/imagens/icons/phone.svg);
+    background-image: url(/assets/imagens/icons/phone.png);
 }
 
 /* Tipos de tela */
