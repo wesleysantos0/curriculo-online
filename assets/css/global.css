@@ -9,9 +9,8 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
-
 body { 
-    height: 100vh;
+    height: 100%;
     background-color: #b95252;
     color: #ffffff;
     background: linear-gradient(to bottom, 
