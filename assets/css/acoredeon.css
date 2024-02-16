@@ -6,7 +6,7 @@
     margin: 1rem 0;
     border: 1px solid #ffffff93;
     border-radius: 1rem;
-    transition: .25s;
+    transition: .15s;
 }
 .acordeon.open,
 .acordeon:hover{
@@ -15,12 +15,14 @@
 }
 
 .acordeon .trigger {
-    font-size: 1.5rem;
+font-size: 1.5rem;
     font-weight: 700;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
     padding: 1rem 2rem;
     margin: 1rem;
     color: white;
@@ -43,7 +45,7 @@
     background-image: url(../imagens/icons/arow.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    transition: .3s;
+    transition: .5s ease-in-out ;
 }
 
 .acordeon.open .trigger::after {
@@ -55,7 +57,7 @@
     overflow: hidden;
     height: 0;
     opacity: 0;
-    transition: opacity .3s ease-in-out;
+    transition: opacity 900ms ease-in-out;
 }
 
 .acordeon.open .content {

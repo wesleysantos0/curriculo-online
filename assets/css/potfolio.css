@@ -1,11 +1,11 @@
 .portfolio {
-    margin: 0;
-    padding: 0;
-    list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .portfolio li {
@@ -21,6 +21,7 @@
     align-items: center;
     font-size: 1.25rem;
     font-weight: 700;
+    margin: 0;
     margin-bottom: .5rem;
 }
 
